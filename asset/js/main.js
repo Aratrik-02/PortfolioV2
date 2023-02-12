@@ -1,13 +1,3 @@
-/*=============== CHANGE BACKGROUND HEADER ===============*/
-// function scrollHeader() {
-//   const header = document.getElementById("header");
-//   // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
-//   if (this.scrollY >= 50) header.classList.add("scroll-header");
-//   else header.classList.remove("scroll-header");
-// }
-// window.addEventListener("scroll", scrollHeader);
-
-
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 let mixerPortfolio = mixitup(".work__container", {
   selectors: {
@@ -114,6 +104,8 @@ sr.reveal(`.about__data`)
 sr.reveal(`.about__img`, {delay: 700})
 sr.reveal(`.section__subtitle, .section__title`)
 sr.reveal(`.resume`, {delay: 900, origin: 'bottom'})
+
+sr.reveal(`.skills__content`, {delay: 900, origin: 'bottom'})
 
 sr.reveal(`.work__filters`, {origin: 'bottom'})
 sr.reveal(`.work__card`, {delay: 800, origin: 'bottom'})
