@@ -182,9 +182,9 @@ img {
   transform: 0.3s;
 }
 
-.change-theme:hover {
+/* .change-theme:hover {
   color: var(--first-color);
-}
+} */
 
 /*========== Variables Light theme ==========*/
 
