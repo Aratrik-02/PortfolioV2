@@ -120,7 +120,7 @@ sr.reveal(`.resume`, {delay: 900, origin: 'bottom'})
 sr.reveal(`.skills__content`, {delay: 900, origin: 'bottom'})
 
 sr.reveal(`.work__filters`, {origin: 'bottom'})
-sr.reveal(`.portfolio, .work__card`, {delay: 800, origin: 'bottom'})
+sr.reveal(`.portfolio, .work__card`, {delay: 600, origin: 'bottom'})
 
 sr.reveal(`.contact__info`, {delay: 600, origin: 'bottom'})
 sr.reveal(`.contact__title`)
