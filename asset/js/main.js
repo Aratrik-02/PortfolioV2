@@ -131,8 +131,8 @@ sr.reveal(`.home__handle`, {delay: 700})
 sr.reveal(`.home__social, .home__scroll`, {delay: 900, origin: 'bottom'})
 
 sr.reveal(`.about__data`)
-sr.reveal(`.about__img`, {delay: 700,origin: 'left'})
-sr.reveal(`.about__box, .about__description`, {delay: 700,origin: 'right'})
+sr.reveal(`.about__img`, {delay: 700,origin: 'bottom'})
+sr.reveal(`.about__box, .about__description`, {delay: 700,origin: 'bottom'})
 sr.reveal(`.section__subtitle, .section__title`, {delay: 700,origin: 'bottom'})
 sr.reveal(`.resume`, {delay: 100, origin: 'bottom'})
 
