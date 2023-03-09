@@ -105,22 +105,42 @@ const sr = ScrollReveal({
   distance: '60px',
   duration: 2500,
   delay: 400,
-  // reset: true,
+  reset: true,
 })
 
+// sr.reveal(`.home__data`)
+// sr.reveal(`.home__handle`, {delay: 700})
+// sr.reveal(`.home__social, .home__scroll`, {delay: 900, origin: 'bottom'})
+
+// sr.reveal(`.about__data`)
+// sr.reveal(`.about__img`, {delay: 700})
+// sr.reveal(`.section__subtitle, .section__title`)
+// sr.reveal(`.resume`, {delay: 900, origin: 'bottom'})
+
+// sr.reveal(`.skills__content`, {delay: 900, origin: 'bottom'})
+
+// sr.reveal(`.work__filters`, {origin: 'bottom'})
+// sr.reveal(`.portfolio, .work__card`, {delay: 600, origin: 'bottom'})
+
+// sr.reveal(`.contact__info`, {delay: 600, origin: 'bottom'})
+// sr.reveal(`.contact__title`)
+// sr.reveal(`.contact__form`, {delay: 900, origin: 'bottom'})
+// });
 sr.reveal(`.home__data`)
 sr.reveal(`.home__handle`, {delay: 700})
 sr.reveal(`.home__social, .home__scroll`, {delay: 900, origin: 'bottom'})
 
 sr.reveal(`.about__data`)
-sr.reveal(`.about__img`, {delay: 700})
-sr.reveal(`.section__subtitle, .section__title`)
-sr.reveal(`.resume`, {delay: 900, origin: 'bottom'})
+sr.reveal(`.about__img`, {delay: 700,origin: 'left'})
+sr.reveal(`.about__box, .about__description`, {delay: 700,origin: 'right'})
+sr.reveal(`.section__subtitle, .section__title`, {delay: 700,origin: 'bottom'})
+sr.reveal(`.resume`, {delay: 100, origin: 'bottom'})
 
-sr.reveal(`.skills__content`, {delay: 900, origin: 'bottom'})
+sr.reveal(`.skills__left`, {delay: 900, origin: 'left'})
+sr.reveal(`.skills__right`, {delay: 900, origin: 'right'})
 
-sr.reveal(`.work__filters`, {origin: 'bottom'})
-sr.reveal(`.portfolio, .work__card`, {delay: 600, origin: 'bottom'})
+sr.reveal(`.portfolio, .work__filters`, {delay: 200,origin: 'bottom',distance: '30px', duration: 1000})
+sr.reveal(`.work__card`, {delay: 200, origin: 'bottom', duration: 1200})
 
 sr.reveal(`.contact__info`, {delay: 600, origin: 'bottom'})
 sr.reveal(`.contact__title`)
