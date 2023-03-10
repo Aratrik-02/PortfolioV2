@@ -103,7 +103,7 @@ themeButton.addEventListener("click", () => {
 const sr = ScrollReveal({
   origin: 'top',
   distance: '60px',
-  duration: 2500,
+  duration: 800,
   delay: 400,
   reset: true,
 })
@@ -139,8 +139,8 @@ sr.reveal(`.resume`, {delay: 100, origin: 'bottom'})
 sr.reveal(`.skills__left`, {delay: 900, origin: 'left'})
 sr.reveal(`.skills__right`, {delay: 900, origin: 'right'})
 
-sr.reveal(`.portfolio, .work__filters`, {delay: 200,origin: 'bottom',distance: '30px', duration: 1000})
-sr.reveal(`.work__card`, {delay: 200, origin: 'bottom', duration: 1200})
+sr.reveal(`.portfolio, .work__filters`, {delay: 200,origin: 'bottom',distance: '30px'})
+sr.reveal(`.work__card`, {delay: 200, origin: 'bottom'})
 
 sr.reveal(`.contact__info`, {delay: 600, origin: 'bottom'})
 sr.reveal(`.contact__title`)
