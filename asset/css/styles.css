@@ -13,11 +13,17 @@
         Blue: hsl(207, 90%, 72%)
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
+        Brown: hsl(19, 40%, 55%)
+        Light-Brown: hsl(19, 40%, 75%)
   */
-  --first-hue: 250;
+/*   --first-hue: 250;
   --sat: 66%;
-  --lig: 75%;
-  --second-hue: 219;
+  --lig: 75%; */
+  --first-hue: 19;
+  --sat: 40%;
+  --lig: 55%;
+/*   --second-hue: 219; */
+  --second-hue: 19;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--first-hue), var(--sat), 71%);
   /* -4% */
@@ -191,8 +197,10 @@ img {
 body.light-theme {
   --title-color: hsl(var(--second-hue), 15%, 15%);
   --text-color: hsl(var(--second-hue), 8%, 35%);
-  --body-color: hsl(var(--second-hue), 100%, 99%);
-  --container-color: #fff;
+/*   --body-color: hsl(var(--second-hue), 100%, 99%);
+  --container-color: #fff; */
+  --body-color: hsl(var(--second-hue), 45%, 85%);
+  --container-color: #f1ddd5;
 }
 
 /*========== 
