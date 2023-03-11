@@ -1046,7 +1046,9 @@ body.light-theme {
   .nav__menu {
     padding: 1rem 1.5rem;
   }
-
+  .home__img{
+    margin-top: 2rem;
+  }
   .home__buttons {
     flex-direction: column;
   }
